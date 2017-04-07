@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <Button
+            android:id="@+id/button_back"
+            android:background="@mipmap/back"
+            android:layout_marginLeft="8dp"
+            android:scaleType="centerCrop"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+        <EditText
+            android:id="@+id/editText"
+
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_search"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@mipmap/search"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
