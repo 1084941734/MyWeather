@@ -43,27 +43,37 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_fl"
+            android:layout_marginLeft="24dp"
+            android:src="@mipmap/fl"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
 
     <TextView
-        android:gravity="center_vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/image_fl"
+        android:layout_centerVertical="true"
         android:drawablePadding="8dp"
         android:id="@+id/text_FL"
         android:layout_marginBottom="8dp"
         android:textColor="#fff"
-        android:layout_marginLeft="24dp"
-        android:drawableLeft="@mipmap/fl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-            <LinearLayout
-                android:gravity="center"
-                android:layout_alignParentRight="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/imageView_DY"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
+            android:layout_marginRight="24dp"
             android:id="@+id/textView_DY"
             android:textColor="#fff"
             android:gravity="center"

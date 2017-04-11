@@ -27,8 +27,8 @@ public class Weather_Forecast {
     public class Cond{
         public int code_d;//白天天气状况代码
         public int code_n;//夜间天气状况代码
-        public String text_d;//白天天气状况描述
-        public String text_n;//夜间天气状况描述
+        public String txt_d;//白天天气状况描述
+        public String txt_n;//夜间天气状况描述
     }
 
     public class Wind{

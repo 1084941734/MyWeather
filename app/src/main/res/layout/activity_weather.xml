@@ -8,11 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:src="@mipmap/t00"
+            android:src="@mipmap/default_bg"
+            android:id="@+id/imageView_Bg"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
         <ScrollView
+            android:fitsSystemWindows="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         <LinearLayout
@@ -20,11 +27,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         <include layout="@layout/weather_title"/>
-        <include layout="@layout/weather_home"/>
-        <include layout="@layout/weather_bottom"/>
+
+            <include layout="@layout/weather_home" />
+
+            <include layout="@layout/weather_bottom"/>
         <include layout="@layout/weather_forecast"/>
+        <include layout="@layout/weather_aqi"/>
+        <include layout="@layout/weather_suggestion"/>
         </LinearLayout>
         </ScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
     </FrameLayout>
 
 

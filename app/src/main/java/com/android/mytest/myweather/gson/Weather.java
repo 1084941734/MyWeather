@@ -15,6 +15,8 @@ public class Weather {
     public Weather_Basic basic;
     public Weather_Now now;
     public Weather_Aqi aqi;
+    public Weather_suggestion suggestion;
+
     @SerializedName("daily_forecast")
     public List<Weather_Forecast>weather_forecasts;
 

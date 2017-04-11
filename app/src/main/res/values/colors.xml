@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPM25_1">#009933</color>
+    <color name="colorPM25_2">#cccc00</color>
+    <color name="colorPM25_3">#ff6633</color>
+    <color name="colorPM25_4">#cc0000</color>
+    <color name="colorPM25_5">#990099</color>
+    <color name="colorPM25_6">#990000</color>
+
 </resources>

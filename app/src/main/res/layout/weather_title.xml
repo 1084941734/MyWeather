@@ -13,11 +13,11 @@
         android:layout_width="30dp"
         android:layout_height="30dp" />
     <TextView
-        android:text="选择城市"
+        android:text="城市"
         android:textColor="#fff"
         android:id="@+id/textView_Title"
         android:textSize="24dp"
-        android:drawableLeft="@mipmap/wz"
+        android:drawableRight="@mipmap/wz"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"

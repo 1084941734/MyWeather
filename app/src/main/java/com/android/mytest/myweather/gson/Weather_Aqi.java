@@ -8,8 +8,7 @@ public class Weather_Aqi {
     public City city;
 
     public class City{
-    public int aqi; // AQI具体值
-    public String qlty;//AQI 描述，优，良
+    public String aqi; // AQI具体值
     public String pm25;//PM2.5
     }
 }
